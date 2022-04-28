@@ -1,4 +1,4 @@
-# Data pipeline tự động thu thập dữ liệu thông tin tuyển dụng sử dụng Airflow
+# AIRFLOW
 
 ### Mục lục 
 [1. Các khái niệm cơ bản trong Airflow](#gioi_thieu_airflow)
