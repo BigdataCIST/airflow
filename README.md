@@ -123,7 +123,7 @@ airflow scheduler -D
 ```
 * Khi chạy chương trình trên server, cần kết nối cổng của local với server để truy cập:
 ```
-ssh -N -L 8080:localhost:8080 bigdata@103.252.1.150 -p 15022
+ssh -N -L 8080:localhost:8080 server_name@host -p port
 ```
 <a name="Viet_chuong_trinh_DAG"></a>
 ## 3. Viết chương trình DAG (Data Pipeline)
