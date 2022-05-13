@@ -33,6 +33,7 @@ Ví dụ trong hình trên, DAG định nghĩa ra 6 tasks, mối quan hệ của
 #### Scheduler
 * [Scheduler](https://airflow.apache.org/docs/apache-airflow/stable/concepts/scheduler.html) là hệ thống lập thời gian để quyết định thời điểm thực thi các DAG 
 * Giám sát các DAGs và kích hoạt các tasks có yếu tố phụ thuộc. 
+![scheduler_crontab](https://user-images.githubusercontent.com/103992475/168252552-b77693ff-5bbb-40d3-bb4e-a84434d91316.png)
 #### Operators
 * [Operators](https://airflow.apache.org/docs/apache-airflow/stable/concepts/operators.html) là các "workers" để chạy các tasks.
 * Mỗi operator chạy các tasks cụ thể được viết bởi python function hoặc shell command.
